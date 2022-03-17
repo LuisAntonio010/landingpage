@@ -1,4 +1,4 @@
-html{
+body{
 }
 
 .header{
@@ -8,7 +8,8 @@ align-items: center;
 background-color: #1f2937;
 font-size: 18px;
 color: #e5e7eb;
-padding: 40px 10px;
+padding: 40px 200px;
+flex: 1;
 
 }
 
@@ -32,20 +33,34 @@ a {
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 200px;
+}
+
+.containerimg{
+    display: flex;
+    width: 300px;
+    height: auto;
+    min-width: auto;
 }
 
 .left  {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    
-}
+    }
 
 .awesome{
     font-size: 48px  ;
     font-weight: bold;
     color: #F9faf8;
+}
+
+.text  {
+
+}
+
+.button {
+
 }
 
 .mainimage {
@@ -56,16 +71,42 @@ a {
 .information {
     display: flex;
     flex-direction: column;
+    padding: 200px;
+    text-align: center;
+    flex: 1;
 }
 
 .tittle {
    display: flex;
     justify-content: center;
+    padding-bottom: 50px;
+
 }
 
 .info   {
     display: flex;
     justify-content: center;
-    gap: 8em;
+    gap: 150px   
 
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    background-color: #e5e7eb;
+    
+
+}
+
+.quote {
+    font-size: 36px;
+    justify-content: center;
+    font-style: italic;
+}
+.quotesignature {
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+    font-weight: 800;
 }
