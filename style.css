@@ -1,9 +1,15 @@
+html{
+}
+
 .header{
 display: flex;
 justify-content: space-between;
+align-items: center;
 background-color: #1f2937;
 font-size: 18px;
 color: #e5e7eb;
+padding: 40px 10px;
+
 }
 
 .logo {
@@ -16,9 +22,50 @@ ul {
     padding: 0;
     gap: 19px;
 }
-
 a {
     text-decoration: none;
     color: #e5e7eb;
-  }
-  
+  }  
+
+.container{
+    display: flex;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: center;
+}
+
+.left  {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.awesome{
+    font-size: 48px  ;
+    font-weight: bold;
+    color: #F9faf8;
+}
+
+.mainimage {
+    display: flex;
+    margin: 50px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle {
+   display: flex;
+    justify-content: center;
+}
+
+.info   {
+    display: flex;
+    justify-content: center;
+    gap: 8em;
+
+}
