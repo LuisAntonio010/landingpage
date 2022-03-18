@@ -1,5 +1,9 @@
 body{
+    margin: 0%;
+    height: 0%;
+    box-sizing: border-box;
 }
+
 
 .header{
 display: flex;
@@ -8,20 +12,14 @@ align-items: center;
 background-color: #1f2937;
 font-size: 18px;
 color: #e5e7eb;
-padding: 40px 200px;
+padding: 0em 4em;
 flex: 1;
-
-}
-
-.logo {
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 19px;
+    gap: 2em;
 }
 a {
     text-decoration: none;
@@ -32,36 +30,47 @@ a {
     display: flex;
     background-color: #1f2937;
     font-size: 18px;
-    color: #e5e7eb;
-    justify-content: space-evenly;
-    padding: 200px;
+    color: #e5e7eb; 
+    padding: 4em 4em; 
+    gap: 8em;
 }
 
-.containerimg{
-    display: flex;
-    width: 300px;
-    height: auto;
-    min-width: auto;
-}
-
-.left  {
+.containerleft, .containerright{
     display: flex;
     flex-direction: column;
-    }
+    flex-basis: 100%;
+}
 
+.containerright {
+    align-items: center;
+    justify-content: center;
+}
+
+.containerimg {    
+    width: 460px;
+    height: 181px;
+    max-width: 100%;
+}
+   
 .awesome{
     font-size: 48px  ;
     font-weight: bold;
     color: #F9faf8;
+    margin-bottom: 2px;
 }
 
-.text  {
-
+.text {
+    font-size: 18px; 
+    margin-bottom: 1em;
 }
 
-.button {
-
-}
+.signup {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+    }
 
 .mainimage {
     display: flex;
@@ -71,33 +80,40 @@ a {
 .information {
     display: flex;
     flex-direction: column;
-    padding: 200px;
-    text-align: center;
-    flex: 1;
+    background-color: lightblue;
+    padding: 4em 4em;
 }
 
 .tittle {
-   display: flex;
     justify-content: center;
-    padding-bottom: 50px;
-
+    text-align: center;
+    padding-bottom: 2em;
+    font-size: 38px;
+    font-weight: 800;
 }
 
-.info   {
+.info {
     display: flex;
     justify-content: center;
-    gap: 150px   
+    align-items: center;
+    gap: 1em;
+}
 
+.figures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 ;
+    gap: 1em;
 }
 
 .quotebox {
     display: flex;
     flex-direction: column;
-    padding: 200px;
+    padding: 5em 10em;
     background-color: #e5e7eb;
-    
-
-}
+    }
 
 .quote {
     font-size: 36px;
@@ -109,4 +125,31 @@ a {
     justify-content: end;
     padding-right: 100px;
     font-weight: 800;
+}
+
+.details{
+    display: flex;
+    margin: 5em 10em;
+}
+
+.detailsleft, .detailsright{
+    display: flex;
+    flex-direction: column;
+    padding: 5em 2em;
+    background-color: lightblue;
+    flex: 1;
+}
+
+.callto {
+    font-size: 24px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 2em 2em;
+    
 }
